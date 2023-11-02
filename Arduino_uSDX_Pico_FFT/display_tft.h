@@ -6,8 +6,9 @@ extern "C" {
 #endif
 
 
-
-#define ROTATION_SETUP  2   // 0, 1, 2 or 3
+//DB2OO, 30-OCT-23
+#define ROTATION_SETUP  1   // 0, 1, 2 or 3
+//#define ROTATION_SETUP  2   // 0, 1, 2 or 3
 
 
 #if ROTATION_SETUP == 0 || ROTATION_SETUP == 2
