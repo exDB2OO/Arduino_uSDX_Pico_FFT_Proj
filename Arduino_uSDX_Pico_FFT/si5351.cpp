@@ -183,7 +183,7 @@ Control Si5351 (see AN619):
 #define SI_XTAL_FREQ  (25000000UL-300UL)  // Replace with measured crystal frequency of XTAL for CL = 10pF (default)  0.0
 #else
 //DB2OO, 30-OCT-23
-#define SI_XTAL_FREQ  25008250UL  // Replace with measured crystal frequency of XTAL for CL = 10pF (default)
+#define SI_XTAL_FREQ  25008375UL   // Replace with measured crystal frequency of XTAL for CL = 10pF (default)
 //#define SI_XTAL_FREQ  (25000000UL-250UL)  // Replace with measured crystal frequency of XTAL for CL = 10pF (default)
 #endif
 #define SI_MSN_LO		((0.6e9)/SI_XTAL_FREQ)
